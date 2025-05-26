@@ -11,7 +11,7 @@ def setup_database():
 
     conn.commit()
     conn.close()
-    print("✅ Database setup complete.")
+    print(" Database setup complete.")
 
 if __name__ == "__main__":
     setup_database()
